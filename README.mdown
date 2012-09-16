@@ -1,0 +1,11 @@
+## Webapp Demo
+
+This project also includes a simple webapp, to demonstrate the use of these various components. 
+
+To launch this demo:
+
+1. launch redis with `redis-server` (and `flushall` if needed)
+2. from the webserver directory: `node server.js`
+3. visit `localhost:8000` in any modern browser
+4. run logtool (note: if you change the channel names in output.json, you will then also need to modify which channels the webapp demo listens on)
+
